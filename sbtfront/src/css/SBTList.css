@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "HANAMDAUM";
+    font-weight: 50;
+    src: url("./font/HANAMDAUM.ttf")
+  }
+  
+  * {
+    font-family: "HANAMDAUM";
+  }
+  
+  .back {
+    box-sizing: border-box;
+  }
+  
+  .content {
+    width:960px;
+    height: 825px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius:15px;
+    box-shadow: 0 0 2px 2px rgb(230, 230, 230);
+  }
+  
+  .header {
+    width:290px;
+    height: 825px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    top: 0;
+  }
+  
+  .header_img {
+    margin-top: 8rem;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+  }
+  
+  .header_img img {
+    border: none;
+    box-sizing: border-box;
+    height: auto;
+    width: 110px;
+    border-radius: 50%;
+  }
+  
+  .header_name, .header_birth,
+  .header_email, .header_number {
+    display:block;
+    background-color: rgb(250, 250, 250);
+    font-size: 15px;
+  }
+  
+  .main {
+    background-color: rgb(240, 240, 240);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 290px;
+    height: 825px;
+    display: block;
+  }
+  
+  .main_archive {
+    position: absolute;
+    width: 620px;
+    margin-top: 50px;
+    margin-left:50px;
+  }
+  
+  .main_archive ul {
+    list-style: none;
+  }
+  
+  .main_archive a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .year {
+    text-align: center;
+    color: gray;
+  }
+  
+  .main_archive_img {
+    width:150px;
+    height:150px;
+  }
+  
+  .main_archive li {
+    display: inline-block;
+    margin-left: 15px;
+  }

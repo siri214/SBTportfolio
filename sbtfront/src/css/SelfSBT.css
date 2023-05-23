@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "HANAMDAUM";
+    font-weight: 50;
+    src: url("./font/HANAMDAUM.ttf")
+  }
+  
+  * {
+    font-family: "HANAMDAUM";
+  }
+  
+  .App {
+    box-sizing: border-box;
+  }
+  
+  .content {
+    width:960px;
+    height: 825px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius:15px;
+    box-shadow: 0 0 2px 2px rgb(230, 230, 230);
+    position: relative;
+    background-color: rgb(250, 250, 250);
+  }
+  .hello{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+  }
+  .content2 {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    display: block;
+  }
+  
+  .imgAddress input, .accountAddress input, .name input {
+    width: 500px;
+    height: 30px;
+    background-color: rgb(250, 250, 250);
+    border-style:none;
+    border-bottom:solid 1px #cacaca;
+    border-collapse:collapse;
+    
+  }
+  
+  .imgAddress, .accountAddress, .name {
+    padding-bottom: 40px;
+  }
+  
+  .description textarea {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(250, 250, 250);
+    border-style:none;
+    border:solid 1px #cacaca;
+    border-collapse:collapse;
+    border-radius: 5px;
+  }
+  
+  .sub button{
+    margin-top:20px;
+    width:500px;
+    height:40px;
+    border-radius: 5px;
+    border: solid 1.5px #cacaca;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+  }

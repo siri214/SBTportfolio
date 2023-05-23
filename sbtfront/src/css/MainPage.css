@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "HANAMDAUM";
+    font-weight: 50;
+    src: url("./font/HANAMDAUM.ttf")
+  }
+  
+  * {
+    font-family: "HANAMDAUM";
+  }
+  
+  .App {
+    width:auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 320px;
+  }
+  
+  .method {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  
+  
+  .white_content {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.8);
+      opacity:0;
+      -webkit-transition: opacity 400ms ease-in;
+      -moz-transition: opacity 400ms ease-in;
+      transition: opacity 400ms ease-in;
+      pointer-events: none;
+  }
+  .white_content:target {
+      opacity:1;
+      pointer-events: auto;
+  }
+  .white_content > div {
+     position: absolute;
+     top: 10%;
+     left: 25%;
+     width: 50%;
+     height: 70%;
+     padding: 16px;
+     border: 6px solid rgb(119, 143, 223);
+     background-color: white;
+     overflow: auto;
+    scroll-behavior: smooth;   
+  }
+  
+  .imgg{
+    width: 50%;
+    height: 50%;
+  }
+  
+  .box {
+    position:sticky;
+    top:0px;
+    padding: 5px;
+    right: 0;
+    font-size: 30px;
+    margin-right: 0;
+    font-weight: 300px;
+  }
